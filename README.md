@@ -11,6 +11,8 @@ src/
 ├── config.js              Environment variables and constants
 ├── lib/
 │   ├── firebase.js        Firebase Admin (Firestore + Auth)
+│   ├── httpError.js       HTTP error handling
+│   ├── validate.js        User validation
 │   └── stripe.js          Stripe client
 ├── middleware/
 │   └── auth.js            Firebase ID token check and role guards
